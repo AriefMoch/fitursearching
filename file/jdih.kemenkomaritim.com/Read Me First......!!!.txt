@@ -1,0 +1,6 @@
+Read Me please...!!!
+
+1. Buat folder baru dengan nama "jdih" di C:\\xampp\\htdocs\\jdih.kemenkomaritim.com
+2. Buat database dengan nama db_jdih
+3. Import database ke phpmyadmin
+4. Masuk backend ke alamat : localhos/jdih.kemenkomaritim.com/administrator/?jdih

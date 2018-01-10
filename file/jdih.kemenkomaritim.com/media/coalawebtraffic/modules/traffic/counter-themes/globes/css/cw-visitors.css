@@ -1,0 +1,25 @@
+/**
+ * @author              Steven Palmer
+ * @author url          http://coalaweb.com
+ * @author email        support@coalaweb.com
+ * @copyright           Copyright (c) 2017 Steven Palmer All rights reserved.
+ */
+
+.cwt-stats-lt-globes, .cwt-stats-ly-globes, 
+.cwt-stats-lw-globes, .cwt-stats-lm-globes, 
+.cwt-stats-la-globes {
+    background:url(../icons/globes.png) no-repeat;
+}
+
+.cwt-stats-lt-globes, .cwt-stats-ly-globes,
+.cwt-stats-lw-globes, .cwt-stats-lm-globes, 
+.cwt-stats-la-globes {
+    padding-left:20px;
+    float:left;
+}
+
+.cwt-stats-lt-globes { background-position: 0px 2px; }
+.cwt-stats-ly-globes { background-position: 0px -64px; }
+.cwt-stats-lw-globes { background-position: 0px -130px; }
+.cwt-stats-lm-globes { background-position: 0px -196px; }
+.cwt-stats-la-globes { background-position: 0px -262px; }

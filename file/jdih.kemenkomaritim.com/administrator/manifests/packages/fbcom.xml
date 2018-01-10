@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+    <name>Facebook Comments By Internet Partner</name>
+	<packagename>fbcom</packagename>     
+    <author>InternetPartner.info</author>
+	<creationDate>Februar, 2012</creationDate>
+    <copyright>Copyright (C) 2011 Internet Partner Agency. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>office@internetiartner.info</authorEmail>
+    <authorUrl>http://internetpartner.info/en/</authorUrl>
+	<version>1.2</version>
+	<files>
+		<file type="module" client="site" id="sr-YU">mod_wsfbcom.zip</file>
+		<file type="plugin" client="site" id="sr-YU">plg_wsfbcom.zip</file>
+	</files>
+</extension>

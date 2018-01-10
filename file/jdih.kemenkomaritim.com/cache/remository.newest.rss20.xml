@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2-ppt (info@mypapit.net)" -->
+<rss version="2.0">
+    <channel>
+        <title>Recent Files</title>
+        <description>Latest from our file repository</description>
+        <link>http://localhost/joomla347/index.php/jenis-peraturan/keputusan-presiden</link>
+        <lastBuildDate>Wed, 27 Sep 2017 15:45:00 +0100</lastBuildDate>
+        <generator>FeedCreator 1.7.2-ppt (info@mypapit.net)</generator>
+        <image>
+            <url>http://localhost/joomla347/components/com_remository/images/header.gif</url>
+            <title>Recent Files</title>
+            <link>http://localhost/joomla347/index.php/jenis-peraturan/keputusan-presiden</link>
+            <description>Selamat datang di JDIH</description>
+        </image>
+        <item>
+            <title>Perpress No. 94 Tahun 2016</title>
+            <link>http://localhost/joomla347/index.php/jenis-peraturan/keputusan-presiden/Keputusan-Presiden/Perpress-No.-94-Tahun-2016/</link>
+            <description>Fungsional Mediator Hubungan Industrial (Keputusan Presiden)</description>
+            <pubDate>Wed, 27 Sep 2017 13:18:42 +0100</pubDate>
+            <guid>http://localhost/joomla347/index.php/jenis-peraturan/keputusan-presiden/Keputusan-Presiden/Perpress-No.-94-Tahun-2016/</guid>
+        </item>
+        <item>
+            <title>Keppres No 18 Tahun 2017</title>
+            <link>http://localhost/joomla347/index.php/jenis-peraturan/keputusan-presiden/Keputusan-Presiden/Keppres-No-18-Tahun-2017/</link>
+            <description>Pedoman bagi Instansi Pemerintah dalam melaksanakan cuti bersama tahun 2017 (Keputusan Presiden)</description>
+            <pubDate>Wed, 27 Sep 2017 13:06:56 +0100</pubDate>
+            <guid>http://localhost/joomla347/index.php/jenis-peraturan/keputusan-presiden/Keputusan-Presiden/Keppres-No-18-Tahun-2017/</guid>
+        </item>
+        <item>
+            <title>25_TAHUN_2014</title>
+            <link>http://localhost/joomla347/index.php/jenis-peraturan/keputusan-presiden/Peraturan-Menteri/25_TAHUN_2014/</link>
+            <description> (Peraturan Menteri)</description>
+            <pubDate>Wed, 27 Sep 2017 13:04:58 +0100</pubDate>
+            <guid>http://localhost/joomla347/index.php/jenis-peraturan/keputusan-presiden/Peraturan-Menteri/25_TAHUN_2014/</guid>
+        </item>
+    </channel>
+</rss>

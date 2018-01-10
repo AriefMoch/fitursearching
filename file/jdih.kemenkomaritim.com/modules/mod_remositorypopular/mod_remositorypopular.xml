@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>Most Downloaded in last X days</name>
+    <creationDate>July 2014</creationDate>
+    <author>Martin Brampton</author>
+    <copyright>This module is released under the GNU/GPL License</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>martin@remository.com</authorEmail>
+    <authorUrl>http://remository.com</authorUrl>
+    <version>3.56J3</version>
+    <description>Display most downloaded files in Remository log</description>
+     <files>
+     		<filename module="mod_remositorypopular">mod_remositorypopular.php</filename>
+			<filename>index.html</filename>
+     </files>
+	 <config>
+	 <fields name="params">
+	 <fieldset name="basic">
+		<field name="downorlog" type="radio" default="log" label="Select using log or download count" description="Number of days will be ignored if download count is chosen">
+			<option value="log">Log Table records</option>
+			<option value="down">File download counts</option>
+		</field>
+		<field name="dateformat" type="text" default="%b.%g" label="Date format" description="As for the PHP strftime function" />
+		<field name="max" type="text" default="5" label="Number of items" description="The number of items to display (default is 5)" />
+		<field name="maxchars" type="text" default="100" label="Number of characters" description="Max number of description characters (default is 100)" />
+		<field name="showsmall" type="radio" default="0" label="Show descriptions" description="Select to hide or show the file description" >
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</field>
+		<field name="category" type="text" default="0" label="Category" description="Show files from one category only (default is 0, showing all categories)" />
+		<field name="days" type="text" default="30" label="Days included" description="How many days to go back in the log file (default is 30)" />
+		<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Distinguishing suffix for module class" />
+	</fieldset>
+	</fields>
+	</config>
+</extension>

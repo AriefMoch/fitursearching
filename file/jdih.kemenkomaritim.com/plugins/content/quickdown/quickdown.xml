@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+	<name>Quickdown</name>
+	<creationDate>July 2014</creationDate>
+	<author>Martin Brampton</author>
+	<authorEmail>martin@remository.com</authorEmail>
+	<authorUrl>www.remository.com</authorUrl>
+	<copyright>(C) 2011-2014 Remository Software Limited</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>3.56J3</version>
+	<description>PLG_CONTENT_QUICKDOWN_DESCRIPTION</description>
+	<files>
+		<filename plugin="quickdown">quickdown.php</filename>
+		<filename>index.html</filename>
+		
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_quickdown.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_quickdown.sys.ini</language>
+		<language tag="fr-FR">language/fr-FR/fr-FR.plg_content_quickdown.ini</language>
+		<language tag="fr-FR">language/fr-FR/fr-FR.plg_content_quickdown.sys.ini</language>
+	</languages>
+
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="show_shortdesc" type="radio" default="0" label="PLG_CONTENT_QUICKDOWN_PARAM_DESCRIPTION_SHORT_L" description="PLG_CONTENT_QUICKDOWN_PARAM_DESCRIPTION_SHORT_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="show_desc" type="radio" default="0" label="PLG_CONTENT_QUICKDOWN_PARAM_DESCRIPTION_L" description="PLG_CONTENT_QUICKDOWN_PARAM_DESCRIPTION_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="show_shortdesc_pos" type="radio" default="top" label="PLG_CONTENT_QUICKDOWN_PARAM_DESCRIPTION_SHORT_POS_L" description="PLG_CONTENT_QUICKDOWN_PARAM_DESCRIPTION_SHORT_POS_D">
+					<option value="top">Top</option>
+					<option value="bottom">Bottom</option> 
+				</field>
+				
+				<field name="show_desc_pos" type="radio" default="top" label="PLG_CONTENT_QUICKDOWN_PARAM_DESCRIPTION_POS_L" description="PLG_CONTENT_QUICKDOWN_PARAM_DESCRIPTION_POS_D">
+					<option value="top">Top</option>
+					<option value="bottom">Bottom</option> 
+				</field>
+
+				<field name="show_download" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_DOWNLOAD_L" description="PLG_CONTENT_QUICKDOWN_PARAM_DOWNLOAD_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="show_audio" type="radio" default="0" label="PLG_CONTENT_QUICKDOWN_PARAM_AUDIO_L" description="PLG_CONTENT_QUICKDOWN_PARAM_AUDIO_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_video" type="radio" default="0" label="PLG_CONTENT_QUICKDOWN_PARAM_VIDEO_L" description="PLG_CONTENT_QUICKDOWN_PARAM_VIDEO_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="show_title" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_TITLE_L" description="PLG_CONTENT_QUICKDOWN_PARAM_TITLE_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="show_thumb" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_THUMBNAILS_L" description="PLG_CONTENT_QUICKDOWN_PARAM_THUMBNAILS_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+				
+				<field name="show_ltentry" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_LTENTRY_L" description="PLG_CONTENT_QUICKDOWN_PARAM_LTENTRY_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+				
+				<field name="show_type" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_TYPE_L" description="PLG_CONTENT_QUICKDOWN_PARAM_TYPE_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="show_version" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_VERSION_L" description="PLG_CONTENT_QUICKDOWN_PARAM_VERSION_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+				
+				<field name="show_size" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_SIZE_L" description="PLG_CONTENT_QUICKDOWN_PARAM_SIZE_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="show_license" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_LICENCE_L" description="PLG_CONTENT_QUICKDOWN_PARAM_LICENCE_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+				
+				<field name="show_author" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_AUTHOR_L" description="PLG_CONTENT_QUICKDOWN_PARAM_AUTHOR_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+			
+				<field name="show_homepage" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_HOMEPAGE_L" description="PLG_CONTENT_QUICKDOWN_PARAM_HOMEPAGE_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+				
+				<field name="show_count" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_COUNT_L" description="PLG_CONTENT_QUICKDOWN_PARAM_COUNT_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="show_rating" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_RATING_L" description="PLG_CONTENT_QUICKDOWN_PARAM_RATING_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+				
+				<field name="show_fileicon" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_FILE_ICON_L" description="PLG_CONTENT_QUICKDOWN_PARAM_FILE_ICON_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="allow_rating" type="radio" default="1" label="PLG_CONTENT_QUICKDOWN_PARAM_RATING_ALLOW_L" description="PLG_CONTENT_QUICKDOWN_PARAM_RATING_ALLOW_D">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option> 
+				</field>
+
+				<field name="sort_order" type="text" default="2" label="PLG_CONTENT_QUICKDOWN_PARAM_SORT_ORDER_L" description="PLG_CONTENT_QUICKDOWN_PARAM_SORT_ORDER_D">
+				</field>
+				
+				<field name="delimiter" type="text" default="" label="PLG_CONTENT_QUICKDOWN_PARAM_DELIMITER_L" description="PLG_CONTENT_QUICKDOWN_PARAM_DELIMITER_D">
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+
